@@ -1,0 +1,38 @@
+[
+  {
+    "id": "047017a4-1e89-46e6-8bea-aff3a94c6010",
+    "type": "caregiver",
+    "firstname": "Kim",
+    "lastname": "Murray",
+    "address": "1898 SW 17 St.",
+    "city": "Miami",
+    "state": "Florida",
+    "zipcode": "33145-6756",
+    "birthdate": "28 Feb 1980 05:00:00 GMT"
+    ,"hasChildren":true
+  },
+  {
+    "id": "916e541e-7b4f-4a8a-a45c-c1669a5ccd21",
+    "type": "patient",
+    "firstname": "Bill",
+    "lastname": "Murray",
+    "address": "9105 SW 36 St",
+    "city": "Miami",
+    "state": "Florida",
+    "zipcode": "33165",
+    "managedBy": "047017a4-1e89-46e6-8bea-aff3a94c6010",
+    "birthdate": "28 Jun 1943 04:00:00 GMT"
+  },
+  {
+    "id": "725d3504-e980-4623-a07b-caa76d22a8e2",
+    "type": "patient",
+    "firstname": "Janet",
+    "lastname": "Murray",
+    "address": "9105 SW 36 St",
+    "city": "Miami",
+    "state": "Florida",
+    "zipcode": "33165",
+    "managedBy": "047017a4-1e89-46e6-8bea-aff3a94c6010",
+    "birthdate": "11 Feb 1936 05:00:00 GMT"
+  }
+]

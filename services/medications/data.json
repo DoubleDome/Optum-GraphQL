@@ -1,0 +1,97 @@
+[
+  {
+    "id": "047017a4-1e89-46e6-8bea-aff3a94c6010",
+    "type": "active",
+    "name": "Divalproex",
+    "dosage": "125 mg tab",
+    "price": "17.00",
+    "savingsAmount": "2",
+    "supplyAmount": "20",
+    "refillDate": "Feb 15, 2020",
+    "autoRefill": true,
+    "refillCount": 1
+  },
+  {
+    "id": "047017a4-1e89-46e6-8bea-aff3a94c6010",
+    "type": "active",
+    "name": "Glyburide",
+    "dosage": "125 mg tab",
+    "price": "19.00",
+    "savingsAmount": "2",
+    "refillDate": "Feb 17, 2020",
+    "autoRefill": false,
+    "refillCount": 3
+  },
+  {
+    "id": "047017a4-1e89-46e6-8bea-aff3a94c6010",
+    "type": "active",
+    "name": "Ramipril",
+    "dosage": "125 mg tab",
+    "price": "21.00",
+    "savingsAmount": "2",
+    "refillDate": "Feb 13, 2020",
+    "autoRefill": false,
+    "refillCount": 2
+  },
+  {
+    "id": "047017a4-1e89-46e6-8bea-aff3a94c6010",
+    "name": "Divalproex",
+    "type": "retail",
+    "dosage": "125 mg tab",
+    "price": "17.00",
+    "savingsAmount": "2",
+    "supplyAmount": "20",
+    "refillDate": "Feb 15, 2020",
+    "autoRefill": true,
+    "refillCount": 1,
+    "isTransferable": true
+  },
+  {
+    "id": "047017a4-1e89-46e6-8bea-aff3a94c6010",
+    "name": "Glyburide",
+    "type": "retail",
+    "dosage": "125 mg tab",
+    "price": "19.00",
+    "savingsAmount": "2",
+    "refillDate": "Feb 17, 2020",
+    "autoRefill": false,
+    "refillCount": 3,
+    "isTransferable": true
+  },
+  {
+    "id": "047017a4-1e89-46e6-8bea-aff3a94c6010",
+    "name": "Ramipril",
+    "type": "retail",
+    "dosage": "125 mg tab",
+    "price": "21.00",
+    "savingsAmount": "2",
+    "refillDate": "Feb 13, 2020",
+    "autoRefill": false,
+    "refillCount": 2,
+    "isTransferable": false
+  },
+  {
+    "id": "916e541e-7b4f-4a8a-a45c-c1669a5ccd21",
+    "name": "Glyburide",
+    "type": "retail",
+    "dosage": "125 mg tab",
+    "price": "19.00",
+    "savingsAmount": "2",
+    "refillDate": "Feb 17, 2020",
+    "autoRefill": false,
+    "refillCount": 3,
+    "isTransferable": true
+  },
+  {
+    "id": "916e541e-7b4f-4a8a-a45c-c1669a5ccd21",
+    "name": "Ramipril",
+    "type": "retail",
+    "dosage": "125 mg tab",
+    "price": "21.00",
+    "savingsAmount": "2",
+    "refillDate": "Feb 13, 2020",
+    "autoRefill": false,
+    "refillCount": 2,
+    "isTransferable": false
+  }
+]

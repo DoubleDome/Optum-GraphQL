@@ -1,0 +1,31 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "order-graph": "nodemon ./orders/index.js",
+    "user-graph": "nodemon ./user/index.js",
+    "medication-graph": "nodemon ./medications/index.js",
+    "start": "concurrently \"npm:*-graph\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "latest",
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.13.2",
+    "@apollo/gateway": "^0.13.2",
+    "apollo-server": "^2.11.0",
+    "bulk-require": "^1.0.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  }
+}
