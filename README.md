@@ -24,6 +24,8 @@ User service runs on port 4001.
 Order service runs on port 4002.
 
 Medications service runs on port 4001.
+
+The command below will start all the smaller GraphQL services cuncurrently.
 ```
 cd apollo
 npm start
@@ -41,5 +43,30 @@ The React App demonstrates how to make a call from the client side.
 ```
 cd interface
 npm start 
+```
+
+## Sample Query
+```
+{
+  user(id: "047017a4-1e89-46e6-8bea-aff3a94c6010") {
+    id
+    name
+    age
+    birthdate
+    managedUsers {
+      id
+      name
+      managedUsers {
+        id
+      }
+    }
+    orders {
+      id
+    }
+    medications {
+      id
+    }
+  }
+}
 ```
 
