@@ -2,11 +2,12 @@
 In order to run the POC you'll need three terminal windows, four if you'd like to run the interface to call GraphQL from React in the browser. 
 
 ## List of Services
-- Mock services run on port 3000.
+- Mock services run on port 5000.
+- Federated GraphQL service runs on port 4000.
 - User GraphQL service runs on port 4001.
 - Order GraphQL service runs on port 4002.
-- Medications GraphQL service runs on port 4001.
-- Federated GraphQL service runs on port 4000.
+- Medications GraphQL service runs on port 4003.
+- React interface runs on port 3000.
 
 
 ## Mock services
