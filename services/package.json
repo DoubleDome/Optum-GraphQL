@@ -2,6 +2,9 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
