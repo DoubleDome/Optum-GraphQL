@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "a16346ed-fa39-4a7d-8c8d-78c5f11743d7",
+		"name": "GraphQL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/user/047017a4-1e89-46e6-8bea-aff3a94c6010",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"user",
+						"047017a4-1e89-46e6-8bea-aff3a94c6010"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/orders/047017a4-1e89-46e6-8bea-aff3a94c6010",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"orders",
+						"047017a4-1e89-46e6-8bea-aff3a94c6010"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Medications / Retail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/medications/047017a4-1e89-46e6-8bea-aff3a94c6010/retail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"medications",
+						"047017a4-1e89-46e6-8bea-aff3a94c6010",
+						"retail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Medications / Active",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/medications/047017a4-1e89-46e6-8bea-aff3a94c6010/active",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"medications",
+						"047017a4-1e89-46e6-8bea-aff3a94c6010",
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User / Managing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/user/047017a4-1e89-46e6-8bea-aff3a94c6010/managing",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"user",
+						"047017a4-1e89-46e6-8bea-aff3a94c6010",
+						"managing"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
