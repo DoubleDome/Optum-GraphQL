@@ -2,7 +2,7 @@
 In order to run the POC you'll need three terminal windows, four if you'd like to run the interface to call GraphQL from React in the browser. 
 
 ## Mock services
-Mock services run on port 3001
+Mock services run on port 3001.
 ```
 cd services
 nodemon index
@@ -10,7 +10,9 @@ nodemon index
 
 ## GraphQL instances for User, Order and Medication
 User service runs on port 4001.
+
 Order service runs on port 4002.
+
 Medications service runs on port 4001.
 ```
 cd apollo
