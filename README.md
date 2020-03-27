@@ -9,9 +9,9 @@ nodemon index
 ```
 
 ## GraphQL instances for User, Order and Medication
-User service runs on port 4001
-Order service runs on port 4002
-Medications service runs on port 4001
+User service runs on port 4001.
+Order service runs on port 4002.
+Medications service runs on port 4001.
 ```
 cd apollo
 npm start
