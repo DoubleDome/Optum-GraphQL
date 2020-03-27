@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "federated": "nodemon ./federated/index.js",
     "order-graph": "nodemon ./orders/index.js",
     "user-graph": "nodemon ./user/index.js",
     "medication-graph": "nodemon ./medications/index.js",
-    "start": "concurrently \"npm:*-graph\""
+    "start": "concurrently \"yarn:*-graph\""
   },
   "author": "",
   "license": "ISC",

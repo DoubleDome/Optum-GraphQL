@@ -5,7 +5,14 @@
     "medication": "Risperdal",
     "estimatedDeliveryDate": "Monday, Jan 20",
     "orderStatus": "process",
-    "status": "backorder"
+    "status": "backorder",
+    "nested1": {
+      "nested2": {
+        "nested3": {
+          "message": "I am a value nested 3 levels deep."
+        }
+      }
+    }
   },
   {
     "id": "047017a4-1e89-46e6-8bea-aff3a94c6010",
@@ -13,7 +20,14 @@
     "medication": "Risperdal",
     "estimatedDeliveryDate": "Monday, Jan 20",
     "orderStatus": "order",
-    "status": "ok"
+    "status": "ok",
+    "nested1": {
+      "nested2": {
+        "nested3": {
+          "message": "I am a value nested 3 levels deep."
+        }
+      }
+    }
   },
   {
     "id": "916e541e-7b4f-4a8a-a45c-c1669a5ccd21",
@@ -21,6 +35,13 @@
     "medication": "Risperdal",
     "estimatedDeliveryDate": "Monday, Jan 20",
     "orderStatus": "order",
-    "status": "ok"
+    "status": "ok",
+    "nested1": {
+      "nested2": {
+        "nested3": {
+          "message": "I am a value nested 3 levels deep."
+        }
+      }
+    }
   }
 ]

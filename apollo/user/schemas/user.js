@@ -11,7 +11,7 @@ module.exports = `
     address: String
     city: String
     state: String
-    zipcode: String,
+    zipcode: String
     managedUsers: [User]
   }
 `;

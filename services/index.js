@@ -1,10 +1,9 @@
 const express = require('express');
 
-const port = 3001;
+const port = 3000;
 const app = express();
 
 app.use('/user', require('./user/service'));
-// app.use('/content', require('./content/ContentService'));
 app.use('/orders', require('./orders/service'));
 app.use('/medications', require('./medications/service'));
 

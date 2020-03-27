@@ -6,5 +6,6 @@ module.exports = `
     estimatedDeliveryDate: String
     orderStatus: String
     status: String
+    message: String
   }
 `;

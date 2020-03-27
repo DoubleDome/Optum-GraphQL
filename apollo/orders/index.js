@@ -1,8 +1,7 @@
 const { gql, ApolloServer } = require('apollo-server');
 const { buildFederatedSchema } = require('@apollo/federation');
-const fetch = require('isomorphic-unfetch');
 
-const BASE_URL = 'http://localhost:3001';
+const BASE_URL = 'http://localhost:3000';
 const PORT = 4002;
 
 const loader = require('../util/loader');
