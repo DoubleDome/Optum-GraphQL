@@ -1,48 +1,42 @@
 # Optum-GraphQL
 In order to run the POC you'll need three terminal windows, four if you'd like to run the interface to call GraphQL from React in the browser. 
 
-Start by installing all the dependencies.
-```
-cd services
-yarn install
-```
-```
-cd apollo
-yarn install
-```
+## List of Services
+- Mock services run on port 3000.
+- User GraphQL service runs on port 4001.
+- Order GraphQL service runs on port 4002.
+- Medications GraphQL service runs on port 4001.
+- Federated GraphQL service runs on port 4000.
+
 
 ## Mock services
-Mock services run on port 3001.
 ```
 cd services
-npm start
+yarn install
+yarn start
 ```
 
 ## GraphQL instances for User, Order and Medication
-User service runs on port 4001.
-
-Order service runs on port 4002.
-
-Medications service runs on port 4001.
-
-The command below will start all the smaller GraphQL services cuncurrently.
+The command below will start all sub GraphQL services cuncurrently.
 ```
 cd apollo
-npm start
+yarn install
+yarn start
 ```
 
 ## Federated GraphQL
-Federated GraphQL runs on port 4000. Navigate to http://localhost:4000 to view the GraphQL playground.
+The Federated GraphQL must be run after the other three services are running. Navigate to http://localhost:4000 to view the GraphQL playground.
 ```
-cd apollo/federated
-nodemon index
+cd apollo
+yarn run federated
 ```
 
 ## React Interface
 The React App demonstrates how to make a call from the client side. 
 ```
 cd interface
-npm start 
+yarn install
+yarn start 
 ```
 
 ## Sample Query
@@ -50,23 +44,30 @@ npm start
 {
   user(id: "047017a4-1e89-46e6-8bea-aff3a94c6010") {
     id
+    firstname
+    lastname
     name
     age
     birthdate
     managedUsers {
       id
+      firstname
+      lastname
       name
-      managedUsers {
-        id
-      }
+      age
+      birthdate
     }
     orders {
-      id
+      medication
+      estimatedDeliveryDate
+      message
     }
     medications {
       id
+      name
     }
   }
 }
+
 ```
 
